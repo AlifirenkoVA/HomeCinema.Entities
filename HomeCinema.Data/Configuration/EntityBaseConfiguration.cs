@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using HomeCinema.Entities.Models;
 
-namespace HomeCinema.Entities.Configuration
+namespace HomeCinema.Data.Configuration
 {
 	public class EntityBaseConfiguration<T> : EntityTypeConfiguration<T> where T : class,
 		IEntityBase

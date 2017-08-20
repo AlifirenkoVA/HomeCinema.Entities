@@ -4,10 +4,10 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Threading.Tasks;
-using HomeCinema.Entities.Configuration;
+using HomeCinema.Data.Configuration;
 using HomeCinema.Entities.Models;
 
-namespace HomeCinema.Entities
+namespace HomeCinema.Data
 {
 	public class HomeCinemaContext : DbContext
 	{

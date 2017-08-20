@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using HomeCinema.Entities.Models;
 
-namespace HomeCinema.Entities.Configuration
+namespace HomeCinema.Data.Configuration
 {
 	public class MovieConfiguration : EntityBaseConfiguration<Movie>
 	{
